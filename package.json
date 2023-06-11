@@ -26,6 +26,7 @@
     "react-vant": "^3.1.4",
     "remark-gfm": "^3.0.1",
     "swiper": "^8.4.6",
-    "uninstall": "^0.0.0"
+    "uninstall": "^0.0.0",
+    "zustand": "^4.3.8"
   }
 }
