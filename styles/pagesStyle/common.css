@@ -1,0 +1,23 @@
+body{
+    background-color: #f6f6f6;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+*::selection{
+    background-color: #04bbfa;
+    outline: none;
+    border-radius: 7px;
+  }
+  .topMargin52{
+    margin-top: 52px!important;
+  }
+  .listf6{
+    background-color: #fff;
+    border-radius: 8px;
+  }

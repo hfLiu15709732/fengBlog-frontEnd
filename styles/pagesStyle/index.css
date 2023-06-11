@@ -1,0 +1,238 @@
+@media (max-width:1200px) {
+    .content-mid{
+        width: 99%!important;
+    }
+    .testSwiper{
+        width: 70.3vw!important;
+    }
+}
+@media (max-width:986px) {
+    .content-mid .right{
+        display: none!important;
+    }
+    .content-mid .left{
+        margin-right: 0px!important;
+        max-width: 100%!important;
+        width: 100%!important;
+    }
+    .content-topMain{
+        height: 35vw!important;
+    }
+    .TopLeft{
+        width: 100%!important;
+        /* overflow-x: hidden; */
+        height: 32vw!important;
+
+    }
+    .whitePage{
+        width: 100%!important;
+        margin-left: 0px!important;
+    }
+    .testSwiper{
+        width: 97.4vw!important;
+    }
+    .show-html{
+        width: 100%!important;
+    }
+    .tourBtn,.helpBtn{
+        display: none;
+    }
+    
+}
+@media (max-width:690px) {
+    .list-icon{
+        flex-direction: column;
+    }
+    .list-title{
+        text-align: center;
+        padding-left: 0px!important;
+    }
+    .InfoSmallTag{
+        margin-top: 10px;
+    }
+    
+}
+.TopLeft{
+    width: 100%;
+    background-color: skyblue;
+    height: 22vw;
+    max-height: 286px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.TopLeft img{
+    border-radius: 8px;
+}
+.content-top .right{
+    flex: 4;
+    background-color: orange;
+}
+
+.content-mid{
+    margin-top: 52px;
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 30x;
+    display: flex;
+    padding-top: 8px;
+    /* margin-top: 14px; */
+    /* background-color: #f6f6f6; */
+}
+.content-mid .left{
+    flex: 8;
+    max-width: 858px;
+    margin-right: 20px;
+    /* background-color: #f6f6f6; */
+    border-radius: 6px;
+}
+.content-mid .right{
+    flex: 3;
+    /* background-color: orange; */
+}
+.list-title{
+    font-size:1.3rem;
+    color: #1e90ff;
+    padding: 0 0.5rem;
+}
+.list-context{
+    color:#777;
+    padding:.5rem;
+    max-height: 214px;
+    overflow: hidden;
+}
+.list-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.5rem 0;
+    color:#AAA;
+}
+.list-icon span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.listItemAll{
+    padding-bottom: 29px!important;
+}
+.ant-list-items{
+    padding: 20px!important;
+}
+.ant-list-item{
+    border-radius: 8px;
+}
+.ant-list-item:hover{
+    background-color: #f6f6f6;
+}
+.pageUI{
+    display: flex;
+    justify-content: center;
+}
+.headerTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 10px!important;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 100%;
+    font-size: 16px;
+    color: #1e90ff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px!important;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.calendarSearch{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 6px;
+        border: 1px solid #ddeede;
+        box-shadow: inset 0 0 5px #0000001a;
+}
+.claendarTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e90ff;
+    padding: 12px;
+}
+.searchTab{
+    padding-top: 22px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.testSwiper{
+    width: 858px;
+    box-sizing: border-box!important;
+}
+.inputMain{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 1.6vw;
+    padding-right: 1.6vw;
+    box-sizing: border-box;
+}
+.helpTitle{
+    font-size: 18px;
+    color: #1e90ff;
+    margin-right: 18px;
+}
+.tourBtn{
+    position: fixed;
+    right: 35px;
+    top: 100px;
+    background-color: #7ed321;
+}
+.tourBtn:hover{
+    background-color: #7ed321!important;
+}
+.helpBtn{
+    position: fixed;
+    right: 35px;
+    top: 150px;
+    background-color: #7ed321;
+}
+.helpBtn:hover{
+    background-color: #7ed321!important;
+}
+.listStyle{
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.listStyle li{
+
+    list-style: square!important;
+    line-height: 34px;
+}
+.listDector{
+    border: 1px solid #ddeede;
+    box-shadow: inset 0 0 5px #0000001a;
+}
+.ant-input{
+    border: 2px solid #ddd;
+}
+.ant-input-wrapper .ant-btn{
+    height: 41.2px!important;
+}
+.banerInfo{
+    margin: 15px auto;
+    max-width: 1200px;
+    height: 42px;
+    
+}
+.p500Title{
+    font-size: 17px;
+    font-weight: 700;
+    color: #1e90ff;
+}

@@ -1,0 +1,34 @@
+.authorDiv{
+    padding-top: 30px!important;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddeede;
+    box-shadow: inset 0 0 5px #0000001a;
+
+}
+.authorDiv div{
+    margin-bottom: 1rem;
+
+}
+.authorIntroduction{
+    font-size:.8rem;
+    color: #999;
+}
+.account{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.btnSource{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.infoCardDiv{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

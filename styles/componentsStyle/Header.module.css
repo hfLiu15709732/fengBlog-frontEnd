@@ -1,0 +1,121 @@
+@media (max-width:1200px) {
+    .header .panel{
+        width: 100%!important;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    
+}
+@media (max-width:890px) {
+    .commonBtn1{
+        display: none!important;
+    }
+    .commonBtn2{
+        display: none!important;
+    }
+    .flexTarget{
+        display: block!important;
+    }
+    
+}
+@media (max-width:700px) {
+    .logo{
+        margin-left: 5px!important;
+    }
+    .logoDes{
+        display: none;
+    }
+    
+}
+.header{
+    background-color: #24292f;
+    height: 52px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+    color: #fff!important;
+}
+.commonBtn1{
+    transform: translate(all 0.3s);
+    color: #9FEAF9!important;
+    font-weight: 700;
+}
+.commonBox{
+    box-sizing: border-box;
+    border-bottom: 2px solid #24292f;
+}
+.commonBox:hover{
+    border-bottom: 2px solid #9FEAF9!important;
+}
+.commonBtn2{
+    color: #fff!important;
+}
+.header .panel{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.header .panel .naviLeft{
+    display: flex;
+    align-items: center;
+}
+.header .panel .naviLeft .logo{
+    height: 42px;
+    margin-right: 27px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "思源黑体";
+    display: flex;
+}
+.picLogo{
+    width: 100%;
+    height: 100%;
+}
+/* .header .iptTop{
+    width: 200px;
+    margin-left: 12px;
+    background: hsla(0,0%,100%,.2)!important;
+    border: 1px solid transparent!important;
+    padding-left: 30px!important;
+}
+.header .iptTop:focus{
+    background:#fff!important;
+    border: 1px solid transparent!important;
+    width: 330px!important;
+}
+.header .iptTop:hover{
+    background:#fff!important;
+    border: 1px solid transparent!important;
+} */
+/* .header .iptSearch{
+    position: relative;
+} */
+/* .header .searchIcon{
+    position: absolute;
+    left: 30px;
+
+} */
+.flexTarget{
+    display: none;
+}
+.naviRight{
+    display: flex;
+    align-items: center;
+}
+.img1 img{
+    width: 38px;
+    height: 38px;
+    margin-right: 25px;
+}
+.logo span{
+    color: #9FEAF9;
+}
+.logoDes{
+    font-weight: 700;
+}
